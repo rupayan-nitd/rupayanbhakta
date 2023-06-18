@@ -51,8 +51,8 @@
     <header class="header">
 		<div class="main-navigation sd-nav">
 			<div class="navbar navbar-expand-lg bsnav bsnav-sidebar bsnav-scrollspy bsnav-sidebar-left">
-				<a class="navbar-brand mb-20" href="index.html">
-					<img src="img/MEE.png" class="logo-display" alt="thumb">
+				<a class="navbar-brand mb-20" href="index.html" href="#home">
+					<img src="img/MEE.png" class="logo-display" alt="thumb" href="#home">
 					<span class="profile_name">Rupayan Bhakta</span>
 				</a>
 				<button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
@@ -60,11 +60,11 @@
 					<ul class="navbar-nav navbar-mobile mr-0">
 						<li class="nav-item"><a class="nav-link smooth-scroll" href="#home"><i class="icofont-home"></i> Home</a></li>
 						<li class="nav-item"><a class="nav-link smooth-scroll" href="#about"><i class="icofont-contact-add"></i> About</a></li>
-						<li class="nav-item"><a class="nav-link smooth-scroll" href="#service"><i class="icofont-file-document"></i> Interests</a></li>
-						<li class="nav-item"><a class="nav-link smooth-scroll" href="#podcast"><i class="icofont-blogger"></i> Podcasts</a></li>
+						<!--<li class="nav-item"><a class="nav-link smooth-scroll" href="#service"><i class="icofont-file-document"></i> Interests</a></li>-->
 						<li class="nav-item"><a class="nav-link smooth-scroll" href="#work"><i class="icofont-briefcase-1"></i> Portfolio</a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="#podcast"><i class="icofont-blogger"></i> Podcasts</a></li>
 						<li class="nav-item"><a class="nav-link smooth-scroll" href="#blog"><i class="icofont-blogger"></i> Blogs</a></li>
-						<li class="nav-item"><a class="nav-link smooth-scroll" href="#feed"><i class="icofont-quote-left"></i>Testimonial</a></li>	
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="#feed"><i class="icofont-quote-left"></i>Testimonials</a></li>	
 						<li class="nav-item"><a class="nav-link smooth-scroll" href="#contact"><i class="icofont-envelope"></i> Contact</a></li>
 						<li class="nav-item"><a class="nav-link smooth-scroll" class="hro-btn wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".9s" class="theme-btn" href="https://drive.google.com/uc?export=download&id=1qjA2q3_FA2cE98V_EZwGXALrrv3dVb43"><i></i> Download Resume</a></li>
 					</ul>
@@ -142,8 +142,8 @@
 								</div>
 
 								<div class="hro-btn wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".9s">
-									<a href="https://www.figma.com/proto/Veut9DEl9M8SBq3dljAtu4/Petshaala?type=design&node-id=442-2076&scaling=min-zoom&page-id=442%3A235" target=”_blank” class="theme-btn">
-										See what I have Built 
+									<a href="#embed_wireframe" class="theme-btn">
+										See Product I've Built 
 									</a>
 								</div>
 							</div>
@@ -166,7 +166,9 @@
 			</div>			
 		</div>
 		<!-- End Hero -->
-		
+
+
+    
 		<!-- About us
 		============================================= -->
 		<div id="about" class="about-area de-padding">
@@ -255,8 +257,19 @@
 			</div> <!-- end about wrp --> 			
 		</div> <!-- About us -->
 
-		
-				
+
+<section id="embed_wireframe" class="blog-area de-padding">
+	<span class="top-title wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".3s">
+		PETSHAALA
+	</span>
+	<h2 data-splitting class="about-tl-3 gr-2 wow fadeInUp" data-wow-duration=".01s" data-wow-delay=".01s">
+		built & launched from concept to market (0->1 stage) <a target="_blank" href="https://www.canva.com/design/DAFmJltcoKg/zBPdmYRP-bNv8E1gZ7QXMQ/view?utm_content=DAFmJltcoKg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"><p style="color:blue;">See Full Presentation</p></a>
+	</h2>
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1200" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlhiKAlrbQ7ZIl6M4BC5bHt%2FClick-to-go-next%3Ftype%3Ddesign%26node-id%3D442-1882%26scaling%3Dscale-down%26page-id%3D442%253A235%26starting-point-node-id%3D442%253A1882" allowfullscreen>
+  </iframe>
+</section>
+
+	
 <!-- Start Portfolio Area
 ============================================= -->
 <section id="work" class="portfolio_bg de-padding">
@@ -282,13 +295,13 @@
 			<div class="col-md-30"><!-- start col-7 -->
 				<ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu mt-50" id="menu-filter">
 					<li id="all" class="list-inline-item"><a class="active" data-filter="*">All</a></li>
-					<li id="tear" class="list-inline-item"><a class="" data-filter=".seo">Product Management</a></li>
+					<li id="vip" class="list-inline-item"><a class="" data-filter=".enter">Product Management</a></li>
+					<li id="tear" class="list-inline-item"><a class="" data-filter=".seo">Product Teardowns</a></li>
+					<!--<li id="market" class="list-inline-item"><a class="" data-filter=".wordpress">Marketing & Strategy</a></li> -->
+					<li id="strategy" class="list-inline-item"><a class="" data-filter=".work">Marketing & Strategy</a></li> 
 					<li id="data" class="list-inline-item"><a class="" data-filter=".ds">Data</a></li>
-					<li id="market" class="list-inline-item"><a class="" data-filter=".wordpress">Marketing</a></li>
-					<li id="strategy" class="list-inline-item"><a class="" data-filter=".work">Strategy</a></li>
-					<li id="vip" class="list-inline-item"><a class="" data-filter=".enter">Entrepreneurship</a></li>
-					<li id="case" class="list-inline-item"><a class="" data-filter=".webdesign">Operations</a></li>				
-					<li id="chain" class="list-inline-item"><a class="" data-filter=".block">Blockchain</a></li>					
+					<!--<li id="case" class="list-inline-item"><a class="" data-filter=".webdesign">Operations</a></li>	-->			
+					<!--<li id="chain" class="list-inline-item"><a class="" data-filter=".block">Blockchain</a></li>	-->			
 				</ul>			
 			</div><!-- end col-7 -->
 		</div><!-- end row --> <br/>
@@ -297,7 +310,7 @@
 				<div class="container portfolio-container"> <!-- container -->
 					<div class="row work-filter">
 
-						<div class="col-md-4 work_item seo">
+						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://www.canva.com/design/DAFh1lSXCMw/R1G2LXUtBjwbodpP1CXnIw/view?utm_content=DAFh1lSXCMw&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
 								<div class="work_box">
 									<div class="work_img">
@@ -320,6 +333,20 @@
 									<div class="work_detail">
 										<h4 class="mb-0">Plum Insurance</h4>
 										<p class="mb-2">Reducing cancellation rate for online doctor teleconsultation</p>										
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+
+						<div class="col-md-4 work_item enter">
+							<a target="_blank" href="https://www.canva.com/design/DAFmJltcoKg/zBPdmYRP-bNv8E1gZ7QXMQ/view?utm_content=DAFmJltcoKg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="img/portfolio/PETSHAALA.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">
+										<h4 class="mb-0">PETSHAALA</h4>
+										<p class="mb-2">An one-stop platform for pet lovers and aggregator for pet-breeders</p>
 									</div>
 								</div>
 							</a>
@@ -367,7 +394,7 @@
 							</a>
 						</div> <!-- end col-4 -->
 
-						<div class="col-md-4 work_item seo">
+						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://www.canva.com/design/DAFawJso-TE/A6-fMyz_67SlsYofGmmvdg/view?utm_content=DAFawJso-TE&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
 								<div class="work_box">
 									<div class="work_img">
@@ -381,7 +408,7 @@
 							</a>
 						</div> <!-- end col-4 -->
 
-						<div class="col-md-4 work_item seo">
+						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://www.canva.com/design/DAFXDuXDr34/Py43tubjnlDDeat4aYyeZw/view?utm_content=DAFXDuXDr34&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
 								<div class="work_box">
 									<div class="work_img">
@@ -423,7 +450,35 @@
 							</a>
 						</div> <!-- end col-4 -->
 
-						<div class="col-md-4 work_item work seo">
+						<div class="col-md-4 work_item enter">
+							<a target="_blank" href="https://www.canva.com/design/DAFQJEyosCA/4T19x5vbWUJtnbQoxBLDqw/view?utm_content=DAFQJEyosCA&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="img/portfolio/Community.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">										
+										<h4 class="mb-0">Community Engagement platform</h4>
+										<p class="mb-2">for product promotion for B2B clients</p>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+
+						<div class="col-md-4 work_item enter">
+							<a target="_blank" href="https://www.canva.com/design/DAFVbNWVLec/tKhIGzC7fTXS8VvunZb4ng/view?utm_content=DAFVbNWVLec&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="img/portfolio/Rustik logo.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">
+										<h4 class="mb-0">Dropshipping Business</h4>
+										<p class="mb-2">Selling Jaisalmeri culture products to support local businesses</p>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+
+						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://www.canva.com/design/DAFVTvkVp8k/wQj_cMnKw7Fgme6ReAjXUQ/view?utm_content=DAFVTvkVp8k&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
 								<div class="work_box">
 									<div class="work_img">
@@ -451,7 +506,7 @@
 							</a>
 						</div> <!-- end col-4 -->
 
-						<div class="col-md-4 work_item seo">
+						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://www.canva.com/design/DAFWI46WdQc/HYhdvPYPKlY8a0wocpci4w/view?utm_content=DAFWI46WdQc&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
 								<div class="work_box">
 									<div class="work_img">
@@ -522,7 +577,7 @@
 							</a>
 						</div> <!-- end col-4 -->">
 								
-						<div class="col-md-4 work_item block">
+						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://www.canva.com/design/DAFVT5Qq348/8LMN475_nrnmQEMAH23c4g/view?utm_content=DAFVT5Qq348&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
 								<div class="work_box">
 									<div class="work_img">
@@ -536,7 +591,7 @@
 							</a>
 						</div> <!-- end col-4 -->
 
-						<div class="col-md-4 work_item block">
+						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://www.canva.com/design/DAFXYQWEb2g/ylVFkZx86mkmkpVxJnDbRw/view?utm_content=DAFXYQWEb2g&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
 								<div class="work_box">
 									<div class="work_img">
@@ -549,20 +604,7 @@
 								</div>
 							</a>
 						</div> <!-- end col-4 -->
-
-						<div class="col-md-4 work_item enter">
-							<a target="_blank" href="https://www.canva.com/design/DAFX6K9zCNM/qWIeCdM8vtGBgU8gfRZHZg/view?utm_content=DAFX6K9zCNM&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/PETSHAALA.png" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">
-										<h4 class="mb-0">PETSHAALA</h4>
-										<p class="mb-2">An one-stop platform for pet lovers and aggregator for pet-breeders</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
+						
 
 						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://drive.google.com/file/d/1JgD1v-hzVIUw8pDI7hqJk8itX0qmsn-T/view?usp=sharing">
@@ -576,21 +618,7 @@
 									</div>
 								</div>
 							</a>
-						</div> <!-- end col-4 -->
-
-						<div class="col-md-4 work_item enter">
-							<a target="_blank" href="https://www.canva.com/design/DAFVbNWVLec/tKhIGzC7fTXS8VvunZb4ng/view?utm_content=DAFVbNWVLec&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/Rustik logo.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">
-										<h4 class="mb-0">Dropshipping Business</h4>
-										<p class="mb-2">Selling Jaisalmeri culture products to support local businesses</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
+						</div> <!-- end col-4 -->						
 
 						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://drive.google.com/file/d/1SzwfLqMO27X19lo6kRPVUYoSELCSp3lL/view?usp=sharing">
@@ -605,21 +633,7 @@
 								</div>
 							</a>
 						</div> <!-- end col-4 -->
-
-						<div class="col-md-4 work_item webdesign">
-							<a target="_blank" href="https://www.canva.com/design/DAFU8UEEB0w/aXKH8HLpOkYQZrFxUa04sw/view?utm_content=DAFU8UEEB0w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/Milk.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">										
-										<h4 class="mb-0">Madurai Aavin Milk Dairy</h4>
-										<p class="mb-2">Supply Chain Optimization</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
-
+						
 						<div class="col-md-4 work_item enter">
 							<a target="_blank" href="https://drive.google.com/file/d/1kTJCCPEWZY3oY7yYw2qfQwrPb2zVOJ5p/view?usp=sharing">
 								<div class="work_box">
@@ -663,104 +677,6 @@
 						</div> <!-- end col-4 -->
 
 						<div class="col-md-4 work_item work">
-							<a target="_blank" href="https://www.canva.com/design/DAFU8XqbmGo/fTGvgTEmO6ORq7rGHzWgZA/view?utm_content=DAFU8XqbmGo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/Starbucks.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">										
-										<h4 class="mb-0">Starbucks</h4>
-										<p class="mb-2">Improving customer ecperience for bibliophiles</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
-
-						<div class="col-md-4 work_item seo">
-							<a target="_blank" href="https://www.canva.com/design/DAFQJEyosCA/4T19x5vbWUJtnbQoxBLDqw/view?utm_content=DAFQJEyosCA&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/Community.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">										
-										<h4 class="mb-0">Community Engagement platform</h4>
-										<p class="mb-2">for product promotion for B2B clients</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
-
-						<div class="col-md-4 work_item webdesign">
-							<a target="_blank" href="https://www.canva.com/design/DAFU8QDuvGo/XwvlDeCEWN75_v7GURjBYA/view?utm_content=DAFU8QDuvGo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/Bakery.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">
-										<h4 class="mb-0">Just Baked</h4>
-										<p class="mb-2">Operations Research</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
-
-						<div class="col-md-4 work_item wordpress">
-							<a target="_blank" href="https://www.canva.com/design/DAFU8wfrYSU/F6eGMuIgFk91LcDCeUtKAg/view?utm_content=DAFU8wfrYSU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/JJ.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">										
-										<h4 class="mb-0">Johnson & Johnson</h4>
-										<p class="mb-2">Sales and promotion to convince celebrity for signing ad</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
-
-						<div class="col-md-4 work_item webdesign">
-							<a target="_blank" href="https://www.canva.com/design/DAFU8UaBKJU/XJWiQ1WV9wDJX5Zm8VRSXQ/view?utm_content=DAFU8UaBKJU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/Zara.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">
-										<h4 class="mb-0">Just Baked</h4>
-										<p class="mb-2">Operations Research</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
-
-						<div class="col-md-4 work_item wordpress">
-							<a target="_blank" href="https://www.canva.com/design/DAFU87yrmA8/oic92OcnJhiOpMqaQ0232A/watch?utm_content=DAFU87yrmA8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/Satrang.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">										
-										<h4 class="mb-0">Consumer Behaviour Ad</h4>
-										<p class="mb-2">Advertisement for gender neutrality in fashion</p>
-										<p class="mb-2">Fashion for All, All for Fashion</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
-						<div class="col-md-4 work_item wordpress">
-							<a target="_blank" href="https://drive.google.com/file/d/1TzkXcBNEMCQioFT60otltBZwxc9UpWBP/view?usp=sharing">
-								<div class="work_box">
-									<div class="work_img">
-										<img src="img/portfolio/Satrang.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
-									</div>
-									<div class="work_detail">										
-										<h4 class="mb-0">Consumer Behaviour Rationals</h4>
-										<p class="mb-2">addressing Personality, Motivation, Attitute and Learning</p>
-									</div>
-								</div>
-							</a>
-						</div> <!-- end col-4 -->
-						
-						<div class="col-md-4 work_item wordpress">
 							<a target="_blank" href="https://www.canva.com/design/DAFU9EAAB4A/3arB7o_Ih3zkTO1yRsYQZQ/view?utm_content=DAFU9EAAB4A&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
 								<div class="work_box">
 									<div class="work_img">
@@ -774,7 +690,7 @@
 							</a>
 						</div> <!-- end col-4 -->
 
-			    	<div class="col-md-4 work_item wordpress">
+			    	<div class="col-md-4 work_item work">
 							<a target="_blank" href="https://docs.google.com/presentation/d/17vCNqTw6azyT5wLCFe0TOqCO3glgNZR1/edit?usp=sharing&ouid=116979731998607626819&rtpof=true&sd=true">
 								<div class="work_box">
 									<div class="work_img">
@@ -787,6 +703,48 @@
 								</div>
 							</a>
 						</div> <!-- end col-4 -->
+
+						<div class="col-md-4 work_item work">
+							<a target="_blank" href="https://www.canva.com/design/DAFU8XqbmGo/fTGvgTEmO6ORq7rGHzWgZA/view?utm_content=DAFU8XqbmGo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="img/portfolio/Starbucks.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">										
+										<h4 class="mb-0">Starbucks</h4>
+										<p class="mb-2">Improving customer ecperience for bibliophiles</p>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->						
+
+						<div class="col-md-4 work_item work">
+							<a target="_blank" href="https://www.canva.com/design/DAFU8wfrYSU/F6eGMuIgFk91LcDCeUtKAg/view?utm_content=DAFU8wfrYSU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="img/portfolio/JJ.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">										
+										<h4 class="mb-0">Johnson & Johnson</h4>
+										<p class="mb-2">Sales and promotion to convince celebrity for signing ad</p>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->
+						
+						<div class="col-md-4 work_item work">
+							<a target="_blank" href="https://docs.google.com/document/d/1IwPofgCwAzlBhLn9xEMVHkH69_N0TrXuZDbIe1eYKhU/edit?usp=sharing">
+								<div class="work_box">
+									<div class="work_img">
+										<img src="img/portfolio/Satrang.jpeg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+									</div>
+									<div class="work_detail">										
+										<h4 class="mb-0">Consumer Behaviour Ad</h4>
+										<p class="mb-2">addressing Personality, Motivation, Attitute and Learning</p>
+									</div>
+								</div>
+							</a>
+						</div> <!-- end col-4 -->						
 
 					</div>
 				</div> <!-- end container -->
@@ -883,7 +841,7 @@
 
 		<div class="clearfix"></div>
 
-		
+
 		<!-- Start Resume
 		============================================= -->
 		<div class="exp-area de-padding">
@@ -905,7 +863,7 @@
 								</div>
 								<div class="exp-content">
 									<h4>Software Developer</h4>
-									<p>HSBC SDI (2019 - 2022)</p>Monitoring user login journey modules for HSBC netbanking, to regulate transactions and reduce fraudulent logins</span>
+									<p>HSBC SDI (2019 - 2022)</p>Managed access control modules for digital banking space, regulated transactions and reduced fraudulent logins</span>
 								</div>
 							</div> <!-- end one -->
 							<div class="exp-box mt-20 wow fadeInDown" data-wow-duration=".6s" data-wow-delay=".2s"><!-- start one -->
@@ -914,7 +872,7 @@
 								</div>
 								<div class="exp-content">
 									<h4>Product Management Intern</h4>
-									<p>IBSFINTECH (2022)</p>To build a community engagement platform for product promotion, targeting 50K+ users</span>
+									<p>IBSFINTECH (2022)</p>Built a community engagement platform to educate 50K+ customers about innovative solutions thus promoting product awareness</span>
 								</div>
 							</div> <!-- end two -->
 							<div class="exp-box mt-30 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s"><!-- start two -->
@@ -934,7 +892,7 @@
 								<div class="exp-content">
 									<h4>Research Intern</h4>
 									<p>IIT KHARAGPUR in SWAN LAB (2018)</p>
-									<span class="exp-description pt-10">Co-authored and published research paper in IEEE official website on SDN</span>
+									<span class="exp-description pt-10">Co-authored and published research paper in IEEE official website reducing network delay by 35%</span>
 								</div>
 							</div> <!-- end four -->						
 						</div>
@@ -968,7 +926,7 @@
 								<div class="exp-content">
 									<h4>Class 12 (ISC)  </h4>
 									<p>St. JAMES SCHOOL (2013 - 2015)</p>
-									<span class="exp-description pt-10">95.5% | Rank #2 out of 100 students in 12th standard board exam</span>
+									<span class="exp-description pt-10">95.5% | Rank #2 out of 100+ students in 12th standard board exam</span>
 								</div>
 							</div> <!-- end three -->	
 							<div class="exp-box mt-30 wow fadeInDown" data-wow-duration=".6s" data-wow-delay=".6s"><!-- start three -->
@@ -978,7 +936,7 @@
 								<div class="exp-content">
 									<h4>Class 10 (ICSE)  </h4>
 									<p>St. MARY’S ORPHANAGE & DAY SCHOOL (2004 - 2013)</p>
-									<span class="exp-description pt-10">91.0% | Rank #1 out of 100 students in 10th standard</span>
+									<span class="exp-description pt-10">91.0% | Rank #1 out of 120+ students in 10th standard</span>
 								</div>
 							</div> <!-- end four -->						
 						</div>
@@ -990,9 +948,15 @@
 							<div class="skill-section">
 								<!-- Progress Bar Start -->
 								<div class="progress-box">
-									<h5>Structured Thinking  <span class="pull-right">85%</span></h5>
+									<h5>Design Thinking  <span class="pull-right">85%</span></h5>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" data-width="85"></div>
+									</div>
+								</div>
+								<div class="progress-box">
+									<h5>Problem Solving <span class="pull-right">98%</span></h5>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" data-width="98"></div>
 									</div>
 								</div>
 								<div class="progress-box">
@@ -1002,15 +966,21 @@
 									</div>
 								</div>
 								<div class="progress-box">
-									<h5>API Development <span class="pull-right">75%</span></h5>
+									<h5>Data Analysis <span class="pull-right">88%</span></h5>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" data-width="75"></div>
+										<div class="progress-bar" role="progressbar" data-width="88"></div>
 									</div>
 								</div>
 								<div class="progress-box">
-									<h5>Consumer Behaviour <span class="pull-right">80%</span></h5>
+									<h5>Product Strategy & Design <span class="pull-right">96%</span></h5>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" data-width="80"></div>
+										<div class="progress-bar" role="progressbar" data-width="96"></div>
+									</div>
+								</div>								
+								<div class="progress-box">
+									<h5>Multitasking <span class="pull-right">89%</span></h5>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" data-width="89"></div>
 									</div>
 								</div>
 								<!-- End Progressbar -->
@@ -1040,9 +1010,21 @@
 									</div>
 								</div>
 								<div class="progress-box">
+									<h5>Tableau <span class="pull-right">84%</span></h5>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" data-width="84"></div>
+									</div>
+								</div>
+								<div class="progress-box">
 									<h5>Jira <span class="pull-right">98%</span></h5>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" data-width="98"></div>
+									</div>
+								</div>
+								<div class="progress-box">
+									<h5>Google Analytics <span class="pull-right">82%</span></h5>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" data-width="82"></div>
 									</div>
 								</div>
 								<!-- End Progressbar -->
@@ -1230,7 +1212,7 @@
 	<div class="clearfix"></div>
 
 
-		<!-- Start Feedback
+		<!-- Start Testimonials
 	============================================= -->
 	<div id="feed" class="feedback-area de-padding">
 		<div class="line_wrap"> <!-- line animation --> 
@@ -1250,6 +1232,21 @@
 				</h2>
 			</div> <!-- end section title -->
 			<div class="feedback-wpr feed-sldr"> <!-- start feedback-wpr -->
+
+				<div class="feedback-box">
+					<div class="feedback-pc">
+						<i class="icofont-quote-left"></i>
+					</div>
+					<p>
+						I know Rupayan from Master's Union and have been his mentor. He is very dedicated, curious by nature and has patience to listen and ask questions. He did a Product Management Internship in my company. For the assigned project, he conducted independent research, came up with insightful ideas and proposed a product-led growth vision. His diligent work, taking responsibility and innovative ideas impressed me a lot. I am confident that he will be a great asset to any organization.
+					<div class="feedback-desc">
+						<img src="img/client/6.png" alt="audiobook maker">
+						<div class="feedback-bio">
+							<h5 class="fz-20 l-h-1">Pramod Agrawal</h5>
+							<span class="fz-16 l-h-1">CTO at IBSFINtech</span>
+						</div>
+					</div>
+				</div> <!-- end single feedback -->
 
 				<div class="feedback-box">
 					<div class="feedback-pc">
@@ -1346,12 +1343,12 @@
 							<span class="fz-16 l-h-1">Software Developer, HSBC</span>
 						</div>
 					</div>
-				</div> <!-- end single feedback -->
+				</div> <!-- end single Testimonials -->
 
-			</div> <!-- end feedback-wpr -->
+			</div> <!-- end Testimonials-wpr -->
 		</div> <!-- end container -->
 	</div>
-	<!-- End Feedback -->		
+	<!-- End Testimonials -->		
 	
 
 	<!-- Start Footer
